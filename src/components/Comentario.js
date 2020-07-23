@@ -3,10 +3,12 @@ import React from 'react';
 import './Comentario.css'
 
 //criar o componente escrito em JSX
-const Comentario = () => (
+const Comentario = props => (
     <div className="Comentario">
-        <div>Joao:</div>
-        <div>Olá, tudo bem?</div>
+        <h2>{props.nome}</h2>
+        <p>{props.email}</p>
+        <div>{props.children}</div>
+        <p>{props.data.toString()}</p>
     </div>
 
 );

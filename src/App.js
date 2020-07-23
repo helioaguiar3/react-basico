@@ -9,7 +9,6 @@ function App() {
       <h1>Meu Projeto</h1>
       <Comentario />
       <Comentario />
-      <Comentario />
     </div>
   );
 }
